@@ -13,7 +13,6 @@ O projeto está sendo desenvolvido com foco em:
 - 🚀 Escalabilidade
 - 🧪 Qualidade de Software
 
-Objetivos
 ## 🎯 Objetivos
 
 - Fortalecer a presença digital do Mercadinho Belmonte
@@ -23,7 +22,6 @@ Objetivos
 - Aplicar boas práticas modernas de desenvolvimento
 - Servir como estudo de caso de arquitetura Frontend moderna
 
-Tecnologias
 ## 🛠️ Stack Tecnológica
 
 | Categoria | Tecnologia |
@@ -36,10 +34,6 @@ Tecnologias
 | CI/CD | GitHub Actions |
 | Controle de Versão | Git + GitHub |
 | Qualidade | ESLint + Prettier |
-
-Arquitetura
-
-Essa parte costuma impressionar recrutadores.
 
 ## 🏗️ Arquitetura
 
@@ -76,7 +70,6 @@ mercadinho-belmonte
 └── README.md
 ```
 
-Funcionalidades Planejadas
 ## ✨ Funcionalidades
 
 - Home institucional
@@ -89,7 +82,6 @@ Funcionalidades Planejadas
 - SEO otimizado
 - Testes automatizados com Playwright
 
-Roadmap
 ## 🚀 Roadmap
 
 ### Fase 1
@@ -121,3 +113,21 @@ Status
 ## 📈 Status
 
 🚧 Projeto em desenvolvimento
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
