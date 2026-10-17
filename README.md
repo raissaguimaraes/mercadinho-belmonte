@@ -4,18 +4,6 @@
   Plataforma institucional desenvolvida para fortalecer a presença digital do Mercadinho Belmonte, proporcionando uma experiência moderna, responsiva e otimizada para dispositivos móveis.
 </p>
 
-https://img.shields.io/badge/Next.js-15-000000?logo=next.js&logoColor=white
-https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white
-https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white
-https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white 
-https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white
-
-https://img.shields.io/badge/Status-Em
-https://img.shields.io/badge/Next.js-15-000000?logo=next.js&logoColor=white https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white https://img.shields.io/badge/Playwright-45BA63?logo=playwright&logoColor=white https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white
-
-<img width="3994" height="2268" alt="image" src="https://github.com/user-attachments/assets/d1a54c58-6200-4a2c-a3aa-6a01ab30051a" />
-
-
 Resumo Executivo
 ## 📋 Visão Geral
 
