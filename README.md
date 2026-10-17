@@ -1,10 +1,6 @@
 # 🛒 Mercadinho Belmonte
+Plataforma institucional desenvolvida para fortalecer a presença digital do Mercadinho Belmonte, proporcionando uma experiência moderna, responsiva e otimizada para dispositivos móveis.
 
-<p align="center">
-  Plataforma institucional desenvolvida para fortalecer a presença digital do Mercadinho Belmonte, proporcionando uma experiência moderna, responsiva e otimizada para dispositivos móveis.
-</p>
-
-Resumo Executivo
 ## 📋 Visão Geral
 
 O Mercadinho Belmonte é um projeto de transformação digital voltado para um comércio local de Boa Viagem - Recife - PE. A iniciativa tem como objetivo ampliar a presença online do estabelecimento, facilitar o contato com clientes e disponibilizar informações relevantes por meio de uma interface moderna, rápida e acessível.
