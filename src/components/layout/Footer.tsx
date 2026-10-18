@@ -10,7 +10,7 @@ import {
 
 import { company } from "@/constants/company";
 import { theme } from "@/constants/theme";
-import { CurrentYear } from "./CurrentYear";
+import { CurrentYear } from "../home/CurrentYear";
 
 export function Footer() {
   return (
