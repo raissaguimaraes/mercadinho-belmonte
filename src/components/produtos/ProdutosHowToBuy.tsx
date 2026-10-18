@@ -2,7 +2,6 @@ import {
   CheckCircle2,
   MessageCircle,
   PackageCheck,
-  ShoppingBasket,
 } from "lucide-react";
 
 export function ProdutosHowToBuy() {
