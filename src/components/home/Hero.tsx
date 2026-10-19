@@ -12,12 +12,12 @@ export function Hero() {
           </span>
 
           <h1 className="mt-4 text-4xl font-bold text-slate-900 md:text-6xl">
-            Hortifruti de qualidade em Boa Viagem
+            Mais perto de você.
           </h1>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Frutas, verduras e legumes frescos todos os dias para você e sua
-            família.
+            Produtos frescos, atendimento próximo e a confiança
+            de quem faz parte da comunidade.
           </p>
 
           <div className="mt-8">

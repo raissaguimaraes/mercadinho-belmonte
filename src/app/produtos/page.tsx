@@ -1,7 +1,6 @@
 import {
   ProdutosCategories,
   ProdutosGallery,
-  ProdutosHero,
   ProdutosHowToBuy,
 } from "@/components/produtos";
 
