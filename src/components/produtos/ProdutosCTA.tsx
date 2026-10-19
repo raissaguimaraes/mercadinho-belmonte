@@ -66,7 +66,7 @@ export function ProdutosCategories() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wide text-green-700">
-            Categorias
+            Produtos
           </span>
 
           <h2 className="mt-4 text-4xl font-bold text-slate-900">

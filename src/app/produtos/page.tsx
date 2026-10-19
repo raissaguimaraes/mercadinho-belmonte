@@ -8,7 +8,6 @@ import {
 export default function ProdutosPage() {
   return (
     <>
-      <ProdutosHero />
       <ProdutosCategories />
       <ProdutosGallery />
       <ProdutosHowToBuy />
