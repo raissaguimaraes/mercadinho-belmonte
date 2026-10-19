@@ -4,27 +4,27 @@ export function ProdutosGallery() {
   const gallery = [
     {
       title: "Hortifruti",
-      image: "/images/frutasdiversas3.jpg",
+      image: "/images/produtos/frutasdiversas3.jpg",
     },
     {
       title: "Açougue",
-      image: "/images/acougue.jpg",
+      image: "/images/produtos/acougue.jpg",
     },
     {
       title: "Frios",
-      image: "/images/frios.jpg",
+      image: "/images/produtos/frios.jpg",
     },
     {
       title: "Mercearia",
-      image: "/images/mercearia2.jpg",
+      image: "/images/produtos/mercearia2.jpg",
     },
     {
       title: "Bebidas",
-      image: "/images/bebidas.jpg",
+      image: "/images/produtos/bebidas.jpg",
     },
     {
       title: "Limpeza",
-      image: "/images/limpeza.jpg",
+      image: "/images/produtos/limpeza.jpg",
     },
   ];
 

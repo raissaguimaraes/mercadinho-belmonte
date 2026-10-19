@@ -26,7 +26,7 @@ export function ProdutosHero() {
 
         <div className="overflow-hidden rounded-3xl shadow-lg">
           <Image
-            src="/images/barracadefrutas.jpg"
+            src="/images/produtos/barracadefrutas.jpg"
             alt="Produtos do Mercadinho Belmonte"
             width={900}
             height={700}
