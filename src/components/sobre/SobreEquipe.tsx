@@ -15,7 +15,7 @@ const fotos = [
     alt: "Hortifruti",
   },
   {
-    src: "/images/sobre/equipeDelivery.jpg",
+    src: "/images/sobre/equipeDElivery.jpg",
     alt: "Entrega",
   },
   {
