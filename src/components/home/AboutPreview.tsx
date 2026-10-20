@@ -8,7 +8,7 @@ export function AboutPreview() {
         <div>
           <div className="mx-auto max-w-sm overflow-hidden rounded-3xl shadow-lg">
             <Image
-              src="/images/vendedor.jpg"
+              src="/images/sobre/vendedor.jpg"
               alt="Mercadinho Belmonte"
               width={700}
               height={500}
