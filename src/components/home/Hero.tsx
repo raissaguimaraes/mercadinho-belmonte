@@ -27,7 +27,7 @@ export function Hero() {
 
         <div className="relative">
           <Image
-            src="/images/produtos/variedadeFrutas.jpg"
+            src="/images/home/fachada.jpg"
             alt="Frutas e verduras frescas"
             width={600}
             height={600}
