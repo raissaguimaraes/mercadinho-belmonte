@@ -7,7 +7,7 @@ export function SobreHistoria() {
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="relative overflow-hidden rounded-3xl">
             <Image
-              src="/images/sobre/equipeMercearia.jpg"
+              src="/images/home/fachada-mercadinho.jpg"
               alt="Fachada do Mercadinho Belmonte"
               width={800}
               height={600}

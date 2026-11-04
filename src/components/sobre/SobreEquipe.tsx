@@ -7,19 +7,19 @@ const fotos = [
     featured: true,
   },
   {
-    src: "/images/sobre/equipedupla.jpg",
+    src: "/images/sobre/suzane.jpg",
     alt: "Atendimento",
   },
   {
-    src: "/images/sobre/equipeHortifruti.jpg",
+    src: "/images/sobre/ronaldo.jpg",
     alt: "Hortifruti",
   },
   {
-    src: "/images/sobre/equipeDElivery.jpg",
-    alt: "Entrega",
+    src: "/images/sobre/aulano.jpg",
+    alt: "Hortifruti",
   },
   {
-    src: "/images/sobre/equipe2.jpg",
+    src: "/images/sobre/flavio-charque.jpg",
     alt: "Açougue",
   },
 ];
