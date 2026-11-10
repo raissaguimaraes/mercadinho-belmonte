@@ -1,27 +1,50 @@
 import Link from "next/link";
-
-const categorias = [
-  "hortifruti",
-  "acougue",
-  "frios",
-  "mercearia",
-  "bebidas",
-  "limpeza",
-  "utilidades",
-  "racao",
-];
+import { productCategories } from "@/data/products";
 
 export function ProductsCategoriesNav() {
   return (
-    <section className="sticky top-0 z-30 border-y bg-white/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl gap-3 overflow-x-auto px-6 py-4">
-        {categorias.map((categoria) => (
+    <section
+      className="
+        sticky
+        top-[0px]
+        z-40
+        border-b
+        bg-white
+        shadow-sm
+      "
+    >
+      <div
+        className="
+          mx-auto
+          flex
+          max-w-7xl
+          justify-center
+          gap-2
+          overflow-x-auto
+          px-4
+          py-4
+        "
+      >
+        {productCategories.map((category) => (
           <Link
-            key={categoria}
-            href={`#${categoria}`}
-            className="whitespace-nowrap rounded-full border border-slate-200 px-4 py-2 text-sm font-medium transition hover:border-green-600 hover:text-green-700"
+            key={category.id}
+            href={`#${category.id}`}
+            className="
+              whitespace-nowrap
+              rounded-full
+              border
+              border-slate-200
+              px-4
+              py-2
+              text-sm
+              font-medium
+              text-slate-700
+              transition
+              hover:border-green-600
+              hover:text-green-700
+            "
           >
-            {categoria}
+            {category.title}
           </Link>
         ))}
       </div>

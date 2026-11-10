@@ -6,20 +6,56 @@ export const productCategories = [
       "Frutas, verduras e legumes selecionados diariamente.",
     products: [
       {
-        name: "Banana",
-        image: "/produtos/hortifruti/banana.jpg",
-      },
-      {
-        name: "Maçã",
-        image: "/produtos/hortifruti/maca.jpg",
-      },
-      {
-        name: "Tomate",
-        image: "/produtos/hortifruti/tomate.jpg",
+        name: "Acerola",
+        image: "/images/produtos/acerola1.JPG",
       },
       {
         name: "Alface",
-        image: "/produtos/hortifruti/alface.jpg",
+        image: "/images/produtos/alface.JPG",
+      },
+      {
+        name: "Banana",
+        image: "/images/produtos/banana.JPG",
+      },
+      {
+        name: "Batata Baroa",
+        image: "/images/produtos/batatabaroa.JPG",
+      },
+      {
+        name: "Coco",
+        image: "/images/produtos/coco.JPG",
+      },
+      {
+        name: "Jerimum",
+        image: "/images/produtos/jerimum.JPG",
+      },
+      {
+        name: "Limão",
+        image: "/images/produtos/limao.JPG",
+      },
+      {
+        name: "Maçã",
+        image: "/images/produtos/maça1.JPG",
+      },
+      {
+        name: "Macaxeira",
+        image: "/images/produtos/macaxeira.JPG",
+      },
+      {
+        name: "Mamão",
+        image: "/images/produtos/mamao.JPG",
+      },
+      {
+        name: "Manga",
+        image: "/images/produtos/manga.JPG",
+      },
+      {
+        name: "Melão",
+        image: "/images/produtos/melao1.JPG",
+      },
+      {
+        name: "Pimentão",
+        image: "/images/produtos/pimentao.JPG",
       },
     ],
   },

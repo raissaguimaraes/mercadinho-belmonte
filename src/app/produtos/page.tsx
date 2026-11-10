@@ -9,10 +9,8 @@ import {
 export default function ProductsPage() {
   return (
     <>
-      <ProductsHowToBuy />
-
       <ProductsCategoriesNav />
-
+      <ProductsHowToBuy />
       {productCategories.map((category) => (
         <ProductsCategorySection
           key={category.id}
