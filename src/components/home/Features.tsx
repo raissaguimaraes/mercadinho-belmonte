@@ -34,13 +34,13 @@ export function Features() {
   ];
 
   return (
-    <section className="bg-slate-50 py-20">
+    <section className="bg-slate-50 py-20"> 
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-sm font-semibold uppercase tracking-wider text-green-700">
             Diferenciais
           </span>
-
+      
           <h2 className="mt-4 text-4xl font-bold text-slate-700">
             Muito mais que um mercado de bairro
           </h2>
@@ -60,15 +60,17 @@ export function Features() {
                 key={feature.title}
                 className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-shadow hover:shadow-md"
               >
-                <div className="mb-4 inline-flex rounded-xl bg-green-100 p-3 text-green-700">
-                  <Icon size={24} />
+                <div className="mb-4 flex justify-center">
+                  <div className="rounded-xl bg-green-100 p-3 text-green-700">
+                    <Icon size={24} />
+                  </div>
                 </div>
 
-                <h3 className="text-lg font-semibold text-slate-900">
+                <h3 className="text-lg font-semibold text-slate-900 text-center">
                   {feature.title}
                 </h3>
 
-                <p className="mt-3 text-sm leading-6 text-slate-600">
+                <p className="mt-3 text-sm leading-6 text-slate-600 text-center">
                   {feature.description}
                 </p>
               </article>

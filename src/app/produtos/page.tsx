@@ -1,15 +1,27 @@
+import { productCategories } from "@/data/products";
+
 import {
-  ProdutosCategories,
-  ProdutosGallery,
-  ProdutosHowToBuy,
+  ProductsCategorySection,
+  ProductsHowToBuy,
+  ProductsCategoriesNav,
 } from "@/components/produtos";
 
-export default function ProdutosPage() {
+export default function ProductsPage() {
   return (
     <>
-      <ProdutosCategories />
-      <ProdutosGallery />
-      <ProdutosHowToBuy />
+      <ProductsHowToBuy />
+
+      <ProductsCategoriesNav />
+
+      {productCategories.map((category) => (
+        <ProductsCategorySection
+          key={category.id}
+          id={category.id}
+          title={category.title}
+          description={category.description}
+          products={category.products}
+        />
+      ))}
     </>
   );
 }

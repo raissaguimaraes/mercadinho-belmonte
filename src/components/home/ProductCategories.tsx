@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   Apple,
   Beef,
@@ -14,34 +15,42 @@ export function ProductCategories() {
     {
       title: "Hortifruti",
       icon: Apple,
+      href: "/produtos#hortifruti",
     },
     {
       title: "Mercearia",
       icon: ShoppingBasket,
+      href: "/produtos#mercearia",
     },
     {
       title: "Frios",
       icon: Milk,
+      href: "/produtos#frios",
     },
     {
       title: "Açougue",
       icon: Beef,
+      href: "/produtos#acougue",
     },
     {
       title: "Bebidas",
       icon: Wine,
+      href: "/produtos#bebidas",
     },
     {
       title: "Limpeza",
       icon: Sparkles,
+      href: "/produtos#limpeza",
     },
     {
       title: "Utilidades",
       icon: Package,
+      href: "/produtos#utilidades",
     },
     {
       title: "Ração",
       icon: Dog,
+      href: "/produtos#racao",
     },
   ];
 
@@ -54,7 +63,8 @@ export function ProductCategories() {
           </h2>
 
           <p className="mt-4 text-lg text-slate-600">
-            Além do hortifruti, você encontra uma variedade de produtos para sua casa e sua família.
+            Além do hortifruti, você encontra uma variedade de
+            produtos para sua casa e sua família.
           </p>
         </div>
 
@@ -63,18 +73,40 @@ export function ProductCategories() {
             const Icon = category.icon;
 
             return (
-              <article
+              <Link
                 key={category.title}
-                className="rounded-2xl border border-slate-200 bg-slate-50 p-6 text-center transition-all hover:-translate-y-1 hover:shadow-md"
+                href={category.href}
+                className="group"
               >
-                <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-green-100 text-green-700">
-                  <Icon size={28} />
-                </div>
+                <article
+                  className="
+                    rounded-2xl
+                    border
+                    border-slate-200
+                    bg-slate-50
+                    p-6
+                    text-center
+                    transition-all
+                    duration-300
+                    hover:-translate-y-1
+                    hover:border-green-200
+                    hover:shadow-md
+                    hover:bg-white
+                  "
+                >
+                  <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-green-100 text-green-700 transition-all group-hover:bg-green-600 group-hover:text-white">
+                    <Icon size={28} />
+                  </div>
 
-                <h3 className="font-semibold text-slate-900">
-                  {category.title}
-                </h3>
-              </article>
+                  <h3 className="font-semibold text-slate-900">
+                    {category.title}
+                  </h3>
+
+                  <p className="mt-2 text-sm text-slate-500">
+                    Ver produtos
+                  </p>
+                </article>
+              </Link>
             );
           })}
         </div>

@@ -1,4 +1,3 @@
-export { ProdutosHero } from "./ProdutosHero";
-export { ProdutosCategories } from "./ProdutosCTA";
-export { ProdutosGallery } from "./ProdutosGallery";
-export { ProdutosHowToBuy } from "./ProdutosHowToBuy";
+export { ProductsHowToBuy } from "./ProductsHowToBuy";
+export { ProductsCategorySection } from "./ProductsCategoriesSection";
+export { ProductsCategoriesNav } from "./ProductsCategoriesNav";

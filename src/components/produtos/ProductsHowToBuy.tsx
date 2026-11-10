@@ -4,7 +4,7 @@ import {
   PackageCheck,
 } from "lucide-react";
 
-export function ProdutosHowToBuy() {
+export function ProductsHowToBuy() {
   const steps = [
     {
       icon: MessageCircle,

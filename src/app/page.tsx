@@ -1,5 +1,4 @@
 import {
-  AboutPreview,
   Features,
   Hero,
   ProductCategories,
@@ -13,7 +12,6 @@ export default function HomePage() {
       <Features />
       <ProductCategories />
       <WhatsAppCTA />
-      <AboutPreview />
     </>
   );
 }
