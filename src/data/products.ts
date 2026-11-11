@@ -67,8 +67,8 @@ export const productCategories = [
       "Carnes selecionadas para sua família.",
     products: [
       {
-        name: "Picanha",
-        image: "/produtos/acougue/picanha.jpg",
+        name: "Charque",
+        image: "/sobre/flavio-charque2.jpg",
       },
       {
         name: "Frango",
@@ -104,14 +104,38 @@ export const productCategories = [
     description:
       "Itens essenciais para sua despensa.",
     products: [
-      {
-        name: "Arroz",
-        image: "/produtos/mercearia/arroz.jpg",
-      },
-      {
-        name: "Feijão",
-        image: "/produtos/mercearia/feijao.jpg",
-      },
-    ],
-  },
+    {
+      name: "Aveia e Cereais",
+      image: "/images/produtos/mercearia/aveiaecereais.JPG",
+    },
+    {
+      name: "Café",
+      image: "/images/produtos/mercearia/cafe.JPG",
+    },
+    {
+      name: "Café",
+      image: "/images/produtos/mercearia/cafe2.JPG",
+    },
+    {
+      name: "Chá",
+      image: "/images/produtos/mercearia/cha.JPG",
+    },
+    {
+      name: "Chá e Granola",
+      image: "/images/produtos/mercearia/chaegranola.JPG",
+    },
+    {
+      name: "Leite",
+      image: "/images/produtos/mercearia/leite.JPG",
+    },
+    {
+      name: "Milho e Maionese",
+      image: "/images/produtos/mercearia/milhoemaionese.JPG",
+    },
+    {
+      name: "Panetone",
+      image: "/images/produtos/mercearia/panetone (2).JPG",
+    },
+  ],
+},
 ];

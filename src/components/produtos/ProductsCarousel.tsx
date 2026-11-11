@@ -4,6 +4,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 type Product = {
+  id?: string;
   name: string;
   image: string;
 };
@@ -58,7 +59,7 @@ export function ProductCarousel({
         <div className="flex gap-5">
           {products.map((product) => (
             <div
-              key={product.name}
+              key={product.id ?? `${product.name}-${product.image}`}
               className="min-w-[220px] flex-[0_0_auto]"
             >
               <article className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
