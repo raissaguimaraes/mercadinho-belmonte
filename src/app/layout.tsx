@@ -67,8 +67,10 @@ export default function RootLayout({
       className={`${inter.variable} ${poppins.variable}`}
     >
       <body>
+       <div className="sticky top-0 z-50">
         <TopBar />
         <Header />
+      </div>
 
         <main>{children}</main>
 

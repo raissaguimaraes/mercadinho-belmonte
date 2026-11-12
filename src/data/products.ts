@@ -1,7 +1,19 @@
+import {
+  Apple,
+  Beef,
+  Dog,
+  Milk,
+  Package,
+  ShoppingBasket,
+  Sparkles,
+  Wine,
+} from "lucide-react";
+
 export const productCategories = [
   {
     id: "hortifruti",
-    title: "🍎 Hortifruti",
+    label: "Hortifruti",
+    icon: Apple,
     description:
       "Frutas, verduras e legumes selecionados diariamente.",
     products: [
@@ -35,7 +47,7 @@ export const productCategories = [
       },
       {
         name: "Maçã",
-        image: "/images/produtos/maça1.JPG",
+        image: "/images/produtos/maca1.JPG",
       },
       {
         name: "Macaxeira",
@@ -61,8 +73,69 @@ export const productCategories = [
   },
 
   {
+    id: "mercearia",
+    label: "Mercearia",
+    icon: ShoppingBasket,
+    description:
+      "Itens essenciais para sua despensa.",
+    products: [
+      {
+        name: "Aveia e Cereais",
+        image: "/images/produtos/mercearia/aveiaecereais.JPG",
+      },
+      {
+        name: "Café",
+        image: "/images/produtos/mercearia/cafe.JPG",
+      },
+      {
+        name: "Café Tradicional",
+        image: "/images/produtos/mercearia/cafe2.JPG",
+      },
+      {
+        name: "Chá",
+        image: "/images/produtos/mercearia/cha.JPG",
+      },
+      {
+        name: "Chá e Granola",
+        image: "/images/produtos/mercearia/chaegranola.JPG",
+      },
+      {
+        name: "Leite",
+        image: "/images/produtos/mercearia/leite.JPG",
+      },
+      {
+        name: "Milho e Maionese",
+        image: "/images/produtos/mercearia/milhoemaionese.JPG",
+      },
+      {
+        name: "Panetone",
+        image: "/images/produtos/mercearia/panetone (2).JPG",
+      },
+    ],
+  },
+
+  {
+    id: "frios",
+    label: "Frios",
+    icon: Milk,
+    description:
+      "Queijos, presuntos e derivados.",
+    products: [
+      {
+        name: "Mussarela",
+        image: "/produtos/frios/mussarela.jpg",
+      },
+      {
+        name: "Presunto",
+        image: "/produtos/frios/presunto.jpg",
+      },
+    ],
+  },
+
+  {
     id: "acougue",
-    title: "🥩 Açougue",
+    label: "Açougue",
+    icon: Beef,
     description:
       "Carnes selecionadas para sua família.",
     products: [
@@ -82,60 +155,38 @@ export const productCategories = [
   },
 
   {
-    id: "frios",
-    title: "🧀 Frios",
+    id: "bebidas",
+    label: "Bebidas",
+    icon: Wine,
     description:
-      "Queijos, presuntos e derivados.",
-    products: [
-      {
-        name: "Mussarela",
-        image: "/produtos/frios/mussarela.jpg",
-      },
-      {
-        name: "Presunto",
-        image: "/produtos/frios/presunto.jpg",
-      },
-    ],
+      "Refrigerantes, sucos, águas e outras bebidas.",
+    products: [],
   },
 
   {
-    id: "mercearia",
-    title: "🛒 Mercearia",
+    id: "limpeza",
+    label: "Limpeza",
+    icon: Sparkles,
     description:
-      "Itens essenciais para sua despensa.",
-    products: [
-    {
-      name: "Aveia e Cereais",
-      image: "/images/produtos/mercearia/aveiaecereais.JPG",
-    },
-    {
-      name: "Café",
-      image: "/images/produtos/mercearia/cafe.JPG",
-    },
-    {
-      name: "Café",
-      image: "/images/produtos/mercearia/cafe2.JPG",
-    },
-    {
-      name: "Chá",
-      image: "/images/produtos/mercearia/cha.JPG",
-    },
-    {
-      name: "Chá e Granola",
-      image: "/images/produtos/mercearia/chaegranola.JPG",
-    },
-    {
-      name: "Leite",
-      image: "/images/produtos/mercearia/leite.JPG",
-    },
-    {
-      name: "Milho e Maionese",
-      image: "/images/produtos/mercearia/milhoemaionese.JPG",
-    },
-    {
-      name: "Panetone",
-      image: "/images/produtos/mercearia/panetone (2).JPG",
-    },
-  ],
-},
+      "Produtos para limpeza e cuidado da casa.",
+    products: [],
+  },
+
+  {
+    id: "utilidades",
+    label: "Utilidades",
+    icon: Package,
+    description:
+      "Itens que facilitam o dia a dia.",
+    products: [],
+  },
+
+  {
+    id: "racao",
+    label: "Ração",
+    icon: Dog,
+    description:
+      "Alimentação e cuidados para seus pets.",
+    products: [],
+  },
 ];

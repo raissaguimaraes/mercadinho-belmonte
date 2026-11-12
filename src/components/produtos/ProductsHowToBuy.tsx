@@ -39,7 +39,8 @@ export function ProductsHowToBuy() {
           </h2>
 
           <p className="mt-4 text-lg text-slate-600">
-            Fale com nossa equipe e receba um atendimento próximo e atencioso.
+            Fale com nossa equipe e receba um atendimento próximo e
+            atencioso.
           </p>
         </div>
 
@@ -50,25 +51,42 @@ export function ProductsHowToBuy() {
             return (
               <article
                 key={step.title}
-                className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm"
+                className="
+                  rounded-2xl
+                  border
+                  border-slate-200
+                  bg-white
+                  p-8
+                  shadow-sm
+                  transition-all
+                  duration-300
+                  hover:-translate-y-1
+                  hover:shadow-md
+                "
               >
-                <div className="mb-5 flex items-center justify-between">
-                  <div className="rounded-xl bg-green-100 p-3 text-green-700">
-                    <Icon size={24} />
-                  </div>
-
-                  <span className="text-sm font-semibold text-green-700">
+                {/* Número */}
+                <div className="mb-6">
+                  <span className="text-lg font-bold text-green-700">
                     {String(index + 1).padStart(2, "0")}
                   </span>
                 </div>
 
-                <h3 className="text-lg font-semibold text-slate-900">
-                  {step.title}
-                </h3>
+                {/* Conteúdo Centralizado */}
+                <div className="text-center">
+                  <div className="mb-5 flex justify-center">
+                    <div className="rounded-xl bg-green-100 p-4 text-green-700">
+                      <Icon size={28} />
+                    </div>
+                  </div>
 
-                <p className="mt-3 text-sm leading-6 text-slate-600">
-                  {step.description}
-                </p>
+                  <h3 className="text-xl font-semibold text-slate-900">
+                    {step.title}
+                  </h3>
+
+                  <p className="mx-auto mt-4 max-w-xs text-sm leading-7 text-slate-600">
+                    {step.description}
+                  </p>
+                </div>
               </article>
             );
           })}
