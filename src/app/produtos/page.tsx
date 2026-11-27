@@ -15,7 +15,7 @@ export default function ProductsPage() {
         <ProductsCategorySection
           key={category.id}
           id={category.id}
-          title={category.title}
+          label={category.label}
           description={category.description}
           products={category.products}
         />
