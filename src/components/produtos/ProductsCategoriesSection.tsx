@@ -7,14 +7,14 @@ type Product = {
 
 interface ProductsCategorySectionProps {
   id: string;
-  title: string;
+  label: string;
   description: string;
   products: Product[];
 }
 
 export function ProductsCategorySection({
   id,
-  title,
+  label,
   description,
   products,
 }: ProductsCategorySectionProps) {
@@ -26,7 +26,7 @@ export function ProductsCategorySection({
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-6">
           <h2 className="text-3xl font-bold text-slate-900">
-            {title}
+            {label}
           </h2>
 
           <p className="mt-2 text-slate-600">
